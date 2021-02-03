@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import gsap from 'gsap'
+import React, { useEffect, useState } from 'react'
 
 interface TabsPropI {
 	children: React.ReactElement[]
@@ -16,6 +17,16 @@ export const Tabs: React.FC<TabsPropI> = ({ children }) => {
 	const onButtonClickHandler = (newActiveTab: string) => {
 		setActiveTab(newActiveTab)
 	}
+
+	useEffect(() => {
+		const unsub = () => {
+			gsap.to('.content', {
+				opacity: 1,
+				duration: 1.5,
+			})
+		}
+		return unsub()
+	}, [activeTab])
 
 	return (
 		<div className='tabs'>

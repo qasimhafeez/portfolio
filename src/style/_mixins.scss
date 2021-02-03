@@ -32,7 +32,6 @@
 @mixin card {
 	padding: $xl-pad;
 	box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.3);
-	min-height: 360px;
 	border-radius: $b-radius;
 	background-color: $light-dark;
 	@include flex-around;

@@ -19,7 +19,7 @@
 			p {
 				text-align: justify;
 				padding: $md-pad 0;
-				font-size: 17px;
+				font-size: 16.5px;
 				a {
 					color: $blue;
 					text-decoration: none;
@@ -36,8 +36,9 @@
 				list-style-type: none;
 				@include grid;
 				margin-top: $lg-marg;
-				grid-template-columns: repeat(3, 1fr);
-				max-width: 500px;
+				gap: 1rem;
+				grid-template-columns: repeat(4, 1fr);
+				// max-width: 500px;
 
 				li {
 					cursor: default;
@@ -51,8 +52,6 @@
 				}
 				@include smallerThan(800px) {
 					grid-template-columns: repeat(3, 1fr);
-					// place-items: center;
-					// place-items: center;
 					li {
 						b {
 							font-size: 12px;

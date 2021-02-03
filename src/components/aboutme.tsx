@@ -1,4 +1,5 @@
 import { useScrollAnimation } from '../util/useScrollAnimation'
+import { Education } from './education'
 
 export const Aboutme: React.FC = () => {
 	//use animate hook
@@ -13,17 +14,15 @@ export const Aboutme: React.FC = () => {
 						<p>
 							Tech geek having more than 2+ years of experience in software
 							development. I have a strong team lead skills and experience in
-							building full stack web applications using react.js, redux on
-							frontend and backend services using node.js, typescript, python
-							and php.. I enjoy creating things that live on the internet,
-							whether that be websites, applications, or anything in between. My
-							goal is to always build products of high end quality. Shortly
-							after graduating from{' '}
+							building full stack web applications. I enjoy creating things that
+							live on the internet, whether that be websites, applications, or
+							anything in between. My goal is to always build products of high
+							end quality. Shortly after graduating from{' '}
 							<span>
 								<a href='https://uog.edu.pk'>University of Gujrat</a>
 							</span>{' '}
-							, Pakistan, I started to work as a freelance software engineer and
-							built many web based projects.
+							in BS Software Engineering, Pakistan, I started to work as a
+							freelance software engineer and built many web based projects.
 						</p>
 						<p>
 							<span>
@@ -40,15 +39,17 @@ export const Aboutme: React.FC = () => {
 						</p>
 						<ul>
 							<li>Javascript (ES6+)</li>
-							<li>React Native</li>
-							<li>Html (S)CSS</li>
+							<li>Html/CSS</li>
 							<li>Typescript</li>
 							<li>React js</li>
 							<li>Node js</li>
+							<li>Docker</li>
+							<li>Kubernetes</li>
+							<li>Python</li>
 						</ul>
 					</section>
 					<section className='image'>
-						<img src='/asim.jpg' alt='personal-pic' />
+						<img src='/qasim.jpeg' alt='personal-pic' />
 					</section>
 				</section>
 			</section>

@@ -7,11 +7,10 @@ export const Intro: React.FC = () => {
 				<h2>I build Web Stuff...</h2>
 				<p>
 					I’m a Software Engineer based in Pakistan, who likes building products
-					for web. Ability to work in a fast paced environment to meet
-					deadlines, loves to work in research and development projects and
-					always dedicated to learn new tools and technologies.
+					for web, loves to work in research & development projects & always
+					dedicated to learn new tools and technologies.
 				</p>
-				<a href='mailto:asimhaff@gmail.com'>
+				<a href='mailto:m.qasimhafeez@outlook.com'>
 					<button>Say Hello</button>
 				</a>
 			</div>

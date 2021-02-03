@@ -7,7 +7,7 @@ import { Linkedin } from './linkedin'
 import { Twitter } from './twitter'
 import { Instagram } from './instagram'
 import { SquareBulletSvg } from './squareBullet'
-
+import { KaggleSvg } from './kaggle'
 export {
 	LinkSvg,
 	Logo,
@@ -18,4 +18,5 @@ export {
 	Twitter,
 	Instagram,
 	SquareBulletSvg,
+	KaggleSvg,
 }

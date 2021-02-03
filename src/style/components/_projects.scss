@@ -13,7 +13,9 @@
 		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 
 		.card {
+			opacity: 0;
 			@include card;
+			min-height: 360px;
 			.head {
 				@include flex-between;
 				margin-bottom: 35px;

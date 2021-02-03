@@ -34,12 +34,13 @@
 	border-radius: $sm-b-radius;
 	.logo-paths {
 		margin-top: -13px;
-		margin-right: -27px;
+		margin-right: -23.5px;
 		margin-left: 5px;
-		margin-bottom: -33px;
+		margin-bottom: -31px;
 	}
 	path {
 		fill: $blue;
+		stroke-width: 0;
 	}
 }
 

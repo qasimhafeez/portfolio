@@ -1,5 +1,4 @@
 import { useScrollAnimation } from '../util/useScrollAnimation'
-import { Education } from './education'
 
 export const Aboutme: React.FC = () => {
 	//use animate hook

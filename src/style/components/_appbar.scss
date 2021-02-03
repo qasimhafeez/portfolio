@@ -1,0 +1,22 @@
+.appbar {
+	@include flex-between;
+	@include container;
+
+	h2 {
+		cursor: pointer;
+		transition: 0.2s;
+		color: $blue;
+		font-weight: 500;
+		padding: $sm-pad 0;
+		@include button;
+		color: $blue;
+		border: 0;
+		font-size: 17.5px;
+		&:hover {
+			color: $half-white;
+		}
+	}
+	a {
+		text-decoration: none;
+	}
+}

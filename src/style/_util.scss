@@ -1,0 +1,61 @@
+.container {
+	@include container;
+}
+
+.center {
+	@include flex-center;
+	height: 100vh;
+}
+
+.logo-wrapper {
+	border: 2.5px solid $dark;
+	display: inline-block;
+	border-radius: 7px;
+	animation: wrap 0.5s linear forwards 2.5s;
+	.logo-paths {
+		margin-top: -16px;
+		margin-right: -37px;
+		margin-left: 8px;
+		margin-bottom: -40px;
+	}
+	path {
+		fill: none;
+		stroke: $blue;
+		stroke-width: 1.5;
+		stroke-dasharray: 330;
+		stroke-linecap: round;
+		animation: paths 4.5s linear forwards;
+	}
+}
+
+.logo-not-loading-wrapper {
+	border: 2px solid $blue;
+	display: inline-block;
+	border-radius: $sm-b-radius;
+	.logo-paths {
+		margin-top: -13px;
+		margin-right: -27px;
+		margin-left: 5px;
+		margin-bottom: -33px;
+	}
+	path {
+		fill: $blue;
+	}
+}
+
+@keyframes paths {
+	from {
+		stroke-dashoffset: 330;
+	}
+	to {
+		stroke-dashoffset: 0;
+		fill: $blue;
+		stroke-width: 0;
+	}
+}
+
+@keyframes wrap {
+	to {
+		border-color: $blue;
+	}
+}

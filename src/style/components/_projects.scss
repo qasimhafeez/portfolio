@@ -1,0 +1,76 @@
+.projects {
+	max-width: 1100px;
+	margin: 70px auto;
+	margin-top: 120px;
+	h2 {
+		font-size: $sub-heading-font;
+		margin: 30px 0;
+		color: $blue;
+		text-align: center;
+	}
+	.cards {
+		@include grid;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+		.card {
+			@include card;
+			.head {
+				@include flex-between;
+				margin-bottom: 35px;
+				h3 {
+					letter-spacing: 1px;
+				}
+				.folder-svg {
+					path {
+						fill: $blue;
+					}
+				}
+			}
+			.content {
+				@include flex-between;
+				align-items: flex-start;
+				justify-content: space-between;
+				flex-direction: column;
+				margin-bottom: 35px;
+				height: 100%;
+				p {
+					font-weight: 200;
+					text-align: justify;
+					margin-bottom: $xxl-marg;
+				}
+				pre {
+					font-size: $sm-font;
+					text-align: justify;
+					code {
+						white-space: normal;
+					}
+				}
+			}
+			.links {
+				@include flex-between;
+				.github-svg,
+				.link-svg {
+					&:hover {
+						cursor: pointer;
+						path {
+							fill: $blue;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.button-section {
+		@include flex-center;
+		margin-top: 35px;
+		button {
+			@include button;
+		}
+	}
+
+	//media query
+	@include smallerThan(500px) {
+		padding: 0.7rem;
+	}
+}

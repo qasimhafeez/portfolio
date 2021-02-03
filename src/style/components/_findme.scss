@@ -1,0 +1,89 @@
+.findme {
+	cursor: default;
+	// height: 60vh;
+	margin-top: 70px;
+	h2 {
+		font-size: $sub-heading-font;
+		color: $blue;
+		margin-top: 180px;
+		text-align: center;
+	}
+
+	.contactme {
+		@include grid;
+		place-items: center;
+		margin-top: 30px;
+		margin-bottom: 170px;
+		p {
+			max-width: 500px;
+			text-align: center;
+		}
+		button {
+			@include button;
+		}
+	}
+
+	.socials {
+		@include flex-center;
+		justify-content: space-around;
+		max-width: 300px;
+		margin: 0 auto;
+
+		.instagram-svg {
+			transition: 0.2s;
+			&:hover {
+				cursor: pointer;
+				transform: translateY(-5px);
+				path {
+					fill: $blue;
+				}
+			}
+		}
+		.twitter-svg {
+			transition: 0.2s;
+			&:hover {
+				cursor: pointer;
+				transform: translateY(-5px);
+				path {
+					fill: $blue;
+				}
+			}
+		}
+		.codesandbox-svg {
+			transition: 0.2s;
+			&:hover {
+				cursor: pointer;
+				transform: translateY(-5px);
+				path {
+					fill: $blue;
+				}
+			}
+		}
+		.linkedin-svg {
+			transition: 0.2s;
+			&:hover {
+				cursor: pointer;
+				transform: translateY(-5px);
+				path {
+					fill: $blue;
+				}
+			}
+		}
+
+		.github-svg {
+			transition: 0.2s;
+			&:hover {
+				cursor: pointer;
+				transform: translateY(-5px);
+				path {
+					fill: $blue;
+				}
+			}
+		}
+	}
+
+	//media query
+	@include smallerThan(500px) {
+		padding: 1rem;
+	}
+}

@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+p {
+	letter-spacing: 1.1px;
+}
+
+body {
+	background-color: $dark;
+	color: $half-white;
+	font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar {
+	width: inherit;
+}
+/* Track */
+::-webkit-scrollbar-track {
+	background-color: $light-dark;
+	border-radius: 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: $light-blue;
+	border-radius: 4px;
+}

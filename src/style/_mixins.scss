@@ -1,0 +1,76 @@
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin flex-end {
+	display: flex;
+	justify-content: flex-end;
+}
+
+@mixin flex-between {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@mixin button-style-content {
+	display: inline-block;
+	border: 2px solid $blue;
+	padding: $md-pad $lg-pad;
+	background-color: $light-blue;
+	border-radius: $b-radius;
+}
+
+@mixin flex-around {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+@mixin card {
+	padding: $xl-pad;
+	box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.3);
+	min-height: 360px;
+	border-radius: $b-radius;
+	background-color: $light-dark;
+	@include flex-around;
+	transition: 0.15s;
+	cursor: default;
+	&:hover {
+		transform: translateY(-5px);
+	}
+}
+
+@mixin container {
+	margin: 0rem auto;
+	max-width: 1230px;
+	padding: 1rem;
+}
+
+@mixin grid {
+	display: grid;
+	gap: 1.5rem;
+}
+
+@mixin button {
+	padding: 15px 20px;
+	border: 2px solid $blue;
+	cursor: pointer;
+	background-color: transparent;
+	color: $half-white;
+	font-size: 16px;
+	border-radius: $sm-b-radius;
+	transition: 0.2s;
+	&:hover {
+		background-color: $light-blue;
+	}
+}
+
+//media queries
+@mixin smallerThan($pixels) {
+	@media (max-width: $pixels) {
+		@content;
+	}
+}

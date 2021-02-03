@@ -6,8 +6,8 @@ export const Intro: React.FC = () => {
 				<h1>Qasim Hafeez.</h1>
 				<h2>I build Web Stuff...</h2>
 				<p>
-					I’m a Software Engineer based in Pakistan, who likes building products
-					for web, loves to work in research & development projects & always
+					I’m a Software Engineer based in UAE, who likes building products for
+					web, loves to work in research & development projects & always
 					dedicated to learn new tools and technologies.
 				</p>
 				<a href='mailto:m.qasimhafeez@outlook.com'>

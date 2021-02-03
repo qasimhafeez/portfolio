@@ -9,7 +9,7 @@ export const SquareBulletSvg: React.FC = () => {
 			fill='none'
 			className='suqaredbullet-svg'
 			xmlns='http://www.w3.org/2000/svg'>
-			<rect width='9' height='9' rx='2.5' fill='#ffd83c' />
+			<rect width='9' height='9' rx='2.5' fill='#5683ff' />
 		</svg>
 	)
 }

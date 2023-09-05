@@ -3,6 +3,8 @@ interface experienceI {
 	content: {
 		workingAsA: string
 		workDuration: string
+		workLocation: string
+		website?: string
 		learned: string[]
 	}
 }
@@ -22,12 +24,12 @@ export const experience: experienceI[] = [
 				"Developed and added essential features in D-Trader to enhance its production functionality and provide a seamless trading experience.",
 				"Enhanced the backoffice by adding core features and closely collaborating with the quants team to meet their specific requirements and improve overall efficiency.",
 				"Implemented new features across various services, improving their functionality and expanding the capabilities of the trading ecosystem.",
-				"Optimized caching on the pricing service, significantly improving performance and reducing response times for better user experience."
+				"Optimized caching on the pricing service, significantly improving performance and reducing response times for better user experience.",
 			],
 		},
 	},
 	{
-		title: "Zain Telecommunications",
+		title: "Zain Telecom.",
 		content: {
 			workingAsA: "Software Engineer",
 			workDuration: "Feb 2020 - Sep 2022",
@@ -40,7 +42,7 @@ export const experience: experienceI[] = [
 				"Develop web apps using CI/CD tools like: GitHub, docker and kubernetes.",
 				"Code optimization and load balancing using docker, kubernetes, NGINX.",
 				"Contribute to robust and scalable software architecture.",
-				"Document all related work per company’s methodology."
+				"Document all related work per company’s methodology.",
 			],
 		},
 	},
@@ -50,7 +52,7 @@ export const experience: experienceI[] = [
 			workingAsA: "Full Stack Engineer",
 			workDuration: "May 2018 - Jan 2020",
 			website: "http://blueraveninc.com/",
-			workLocation: "UAE",
+			workLocation: "Pakistan",
 			learned: [
 				"Successfully developed a comprehensive B2B e-commerce store with a wide array of features, including product recommendation algorithms, robust payment gateway integration, meticulous product catalog management, streamlined order processing, and a seamless delivery module.",
 				"Acted as a Backend Engineer, contributing significantly to a garage management system project. My role involved the creation of RESTful APIs and the development of key modules such as garage booking, invoice management, and the generation of comprehensive reports to enhance operational efficiency.",

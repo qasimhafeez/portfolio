@@ -1,9 +1,10 @@
-import { SquareBulletSvg } from '../icons'
-import { Tab, Tabs } from '../util/tab'
-import { useScrollAnimation } from '../util/useScrollAnimation'
+import { SquareBulletSvg } from "../icons"
+import { Tab, Tabs } from "../util/tab"
+import { useScrollAnimation } from "../util/useScrollAnimation"
+import { experience } from "../data/expirenece"
 export const Experience: React.FC = () => {
 	//use animate hook
-	useScrollAnimation('.experience')
+	useScrollAnimation(".experience")
 	return (
 		<div className='experience'>
 			<h2>Experience</h2>

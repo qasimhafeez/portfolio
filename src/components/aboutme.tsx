@@ -11,9 +11,9 @@ export const Aboutme: React.FC = () => {
 				<section className='aboutme-grid'>
 					<section className='content'>
 						<p>
-							Tech geek having more than 5+ years of experience in software
+							Tech geek having 7 years of experience in software
 							development. I have a strong team lead skills and experience in
-							building full stack web applications. I enjoy creating things that
+							building scalable web applications. I enjoy creating things that
 							live on the internet, whether that be websites, applications, or
 							anything in between. My goal is to always build products of high
 							end quality. Shortly after graduating from{" "}
@@ -27,28 +27,30 @@ export const Aboutme: React.FC = () => {
 							<span>
 								<b>Currently</b>
 							</span>{" "}
-							I'm working as Full Stack Developer in a company based in Dubai,
+							I'm working as Senior Software Engineer at Emirated NBD a company based in Dubai,
 							UAE.
 						</p>
 						<p>
 							<span>
 								<b>Technologies</b>
 							</span>{" "}
-							I'm working on,
+							I have worked on:
 						</p>
 						<ul>
-							<li>Javascript (ES6+)</li>
-							<li>Html/CSS</li>
-							<li>Typescript</li>
-							<li>React js</li>
-							<li>Node js</li>
-							<li>Docker</li>
-							<li>Kubernetes</li>
-							<li>Python</li>
+							<li>AI Integration</li>
+							<li>Crypto Web3 - Solidity, EVM, DAPP</li>
+							<li>Distributed Computing - Hadoop, HDFS, MapReduce, Cassandra, HBase</li>
+							<li>Messaging Service - Kafka, RabbitMQ, Redis Streaming</li>
+							<li>Databases - PostgreSQL, mySQL, MongoDB, Dynamo DB</li>
+							<li>Nodejs - Typescript</li>
+							<li>Python - Flask, Django</li>
+							<li>Golang</li>
+							<li>Machine Learning - (Regression, Clustering, Classification, Neural Networks)</li>
+							<li>These are the skills I have worked on and on weekends and in my free time, I am building some pet projects on Machine Learning and AI Automations</li>
 						</ul>
 					</section>
 					<section className='image'>
-						<img src='/qasim.jpeg' alt='personal-pic' />
+						<img src='/qasim.jpg' alt='personal-pic' />
 					</section>
 				</section>
 			</section>

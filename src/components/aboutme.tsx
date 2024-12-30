@@ -38,16 +38,33 @@ export const Aboutme: React.FC = () => {
 						</p>
 						<ul>
 							<li>AI Integration</li>
-							<li>Crypto Web3 - Solidity, EVM, DAPP</li>
-							<li>Distributed Computing - Hadoop, HDFS, MapReduce, Cassandra, HBase</li>
-							<li>Messaging Service - Kafka, RabbitMQ, Redis Streaming</li>
-							<li>Databases - PostgreSQL, mySQL, MongoDB, Dynamo DB</li>
-							<li>Nodejs - Typescript</li>
-							<li>Python - Flask, Django</li>
+							<li>Solidity</li>
+							<li>EVM</li>
+							<li>DAPP</li>
+							<li>Hadoop</li>
+							<li>HDFS</li>
+							<li>MapReduce</li>
+							<li>Cassandra</li>
+							<li>HBase</li>
+							<li>Kafka</li>
+							<li>RabbitMQ</li>
+							<li>Redis Streaming</li>
+							<li>PostgreSQL</li>
+							<li>MySQL</li>
+							<li>MongoDB</li>
+							<li>DynamoDB</li>
+							<li>Node.js</li>
+							<li>TypeScript</li>
+							<li>Python</li>
+							<li>Flask</li>
+							<li>Django</li>
 							<li>Golang</li>
-							<li>Machine Learning - (Regression, Clustering, Classification, Neural Networks)</li>
-							<li>These are the skills I have worked on and on weekends and in my free time, I am building some pet projects on Machine Learning and AI Automations</li>
+							<li>Regression</li>
+							<li>Clustering</li>
+							<li>Classification</li>
+							<li>Neural Networks</li>
 						</ul>
+						<p>These are the skills I have worked on and on weekends and in my free time, I am building some pet projects on Machine Learning and AI Automations</p>
 					</section>
 					<section className='image'>
 						<img src='/qasim.jpg' alt='personal-pic' />

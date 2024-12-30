@@ -4,7 +4,7 @@
 		display: flex;
 		max-width: 500px;
 		margin: $xl-marg auto;
-		justify-content: center;
+		// justify-content: center;
 		li {
 			@include button;
 			white-space: nowrap;
